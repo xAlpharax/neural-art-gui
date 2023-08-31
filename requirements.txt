@@ -1,0 +1,4 @@
+pyside6==6.5
+torch
+numpy
+tqdm

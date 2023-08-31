@@ -1,0 +1,3 @@
+#!/bin/bash
+
+bin/pyside6-uic -o gui.py gui.ui
