@@ -1,0 +1,6 @@
+The vis_factor in neuralart.py was changed to 1 instead of 10 as the purpose of this gui is a quick and simple demo of neural-art.
+So instead of 6000 steps taken in optimizing, it does 600, then renders those 600 steps as 600 frames via renderer.py.
+
+Stores progress state in the /tmp/state file via an os.system command in the neuralart.py training loop.
+
+Commented out the *.npy in clear_dir.sh as to allow a nice trick with the GUI commands.
